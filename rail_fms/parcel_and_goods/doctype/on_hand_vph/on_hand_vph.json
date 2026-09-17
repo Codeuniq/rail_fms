@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "autoname": "hash",
+ "creation": "2026-09-04 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "train",
+  "arr_date",
+  "wagon",
+  "brake",
+  "status",
+  "remarks",
+  "cleared"
+ ],
+ "fields": [
+  {
+   "fieldname": "train",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Train",
+   "options": "Train",
+   "search_index": 1
+  },
+  {
+   "fieldname": "arr_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "ArrDate"
+  },
+  {
+   "fieldname": "wagon",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Wagon",
+   "length": 50
+  },
+  {
+   "fieldname": "brake",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Brake",
+   "length": 10
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status",
+   "length": 10
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "label": "Remarks",
+   "length": 50
+  },
+  {
+   "fieldname": "cleared",
+   "fieldtype": "Check",
+   "label": "Cleared"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-09-04 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Parcel And Goods",
+ "name": "On Hand VPH",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "arr_date",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 0
+}

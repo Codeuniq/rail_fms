@@ -1,0 +1,369 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2026-09-04 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tr_date",
+  "per_ob",
+  "per_bkd",
+  "per_total",
+  "per_desp",
+  "per_lo",
+  "per_lo_w",
+  "n_per_ob",
+  "n_per_bkd",
+  "n_per_total",
+  "n_per_desp",
+  "n_per_lo",
+  "n_per_lo_w",
+  "oldest_ow",
+  "par_spl_p",
+  "par_spl_w",
+  "ow_gtl_lo",
+  "ow_mas_lo",
+  "ow_ask_lo",
+  "ow_gtl_lo_desc",
+  "ow_mas_lo_desc",
+  "ow_ask_lo_desc",
+  "tp_div_ob",
+  "tp_div_recd",
+  "tp_div_total",
+  "tp_div_desp",
+  "tp_div_lo",
+  "tp_div_lo_w",
+  "tp_lo",
+  "tp_oldest",
+  "tp_del_ob",
+  "tp_del_recd",
+  "tp_del_total",
+  "tp_del_desp",
+  "tp_del_lo",
+  "tp_del_lo_w",
+  "tp_c_ob",
+  "tp_c_recd",
+  "tp_c_total",
+  "tp_c_desp",
+  "tp_c_lo",
+  "tp_c_lo_w",
+  "tp_c_lo_desc",
+  "tp_p_ob",
+  "tp_p_recd",
+  "tp_p_total",
+  "tp_p_desp",
+  "tp_p_lo",
+  "tp_p_lo_w",
+  "tp_p_lo_desc",
+  "pf_del",
+  "iw",
+  "sect",
+  "pf_lo"
+ ],
+ "fields": [
+  {
+   "fieldname": "tr_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "TrDate",
+   "search_index": 1
+  },
+  {
+   "fieldname": "per_ob",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "PerOB"
+  },
+  {
+   "fieldname": "per_bkd",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "PerBkd"
+  },
+  {
+   "fieldname": "per_total",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "PerTotal"
+  },
+  {
+   "fieldname": "per_desp",
+   "fieldtype": "Int",
+   "label": "PerDesp"
+  },
+  {
+   "fieldname": "per_lo",
+   "fieldtype": "Int",
+   "label": "PerLO"
+  },
+  {
+   "fieldname": "per_lo_w",
+   "fieldtype": "Int",
+   "label": "PerLO_W"
+  },
+  {
+   "fieldname": "n_per_ob",
+   "fieldtype": "Int",
+   "label": "NPerOB"
+  },
+  {
+   "fieldname": "n_per_bkd",
+   "fieldtype": "Int",
+   "label": "NPerBkd"
+  },
+  {
+   "fieldname": "n_per_total",
+   "fieldtype": "Int",
+   "label": "NPerTotal"
+  },
+  {
+   "fieldname": "n_per_desp",
+   "fieldtype": "Int",
+   "label": "NPerDesp"
+  },
+  {
+   "fieldname": "n_per_lo",
+   "fieldtype": "Int",
+   "label": "NPerLO"
+  },
+  {
+   "fieldname": "n_per_lo_w",
+   "fieldtype": "Int",
+   "label": "NPerLO_W"
+  },
+  {
+   "fieldname": "oldest_ow",
+   "fieldtype": "Data",
+   "label": "OldestOW",
+   "length": 100
+  },
+  {
+   "fieldname": "par_spl_p",
+   "fieldtype": "Int",
+   "label": "ParSpl_P"
+  },
+  {
+   "fieldname": "par_spl_w",
+   "fieldtype": "Int",
+   "label": "ParSpl_W"
+  },
+  {
+   "fieldname": "ow_gtl_lo",
+   "fieldtype": "Int",
+   "label": "OW_GTL_LO"
+  },
+  {
+   "fieldname": "ow_mas_lo",
+   "fieldtype": "Int",
+   "label": "OW_MAS_LO"
+  },
+  {
+   "fieldname": "ow_ask_lo",
+   "fieldtype": "Int",
+   "label": "OW_ASK_LO"
+  },
+  {
+   "fieldname": "ow_gtl_lo_desc",
+   "fieldtype": "Small Text",
+   "label": "OW_GTL_LO_Desc"
+  },
+  {
+   "fieldname": "ow_mas_lo_desc",
+   "fieldtype": "Small Text",
+   "label": "OW_MAS_LO_Desc"
+  },
+  {
+   "fieldname": "ow_ask_lo_desc",
+   "fieldtype": "Small Text",
+   "label": "OW_ASK_LO_Desc"
+  },
+  {
+   "fieldname": "tp_div_ob",
+   "fieldtype": "Int",
+   "label": "TP_Div_OB"
+  },
+  {
+   "fieldname": "tp_div_recd",
+   "fieldtype": "Int",
+   "label": "TP_Div_Recd"
+  },
+  {
+   "fieldname": "tp_div_total",
+   "fieldtype": "Int",
+   "label": "TP_Div_Total"
+  },
+  {
+   "fieldname": "tp_div_desp",
+   "fieldtype": "Int",
+   "label": "TP_Div_Desp"
+  },
+  {
+   "fieldname": "tp_div_lo",
+   "fieldtype": "Int",
+   "label": "TP_Div_LO"
+  },
+  {
+   "fieldname": "tp_div_lo_w",
+   "fieldtype": "Int",
+   "label": "TP_Div_LO_W"
+  },
+  {
+   "fieldname": "tp_lo",
+   "fieldtype": "Small Text",
+   "label": "TP_LO"
+  },
+  {
+   "fieldname": "tp_oldest",
+   "fieldtype": "Small Text",
+   "label": "TP_Oldest"
+  },
+  {
+   "fieldname": "tp_del_ob",
+   "fieldtype": "Int",
+   "label": "TP_Del_OB"
+  },
+  {
+   "fieldname": "tp_del_recd",
+   "fieldtype": "Int",
+   "label": "TP_Del_Recd"
+  },
+  {
+   "fieldname": "tp_del_total",
+   "fieldtype": "Int",
+   "label": "TP_Del_Total"
+  },
+  {
+   "fieldname": "tp_del_desp",
+   "fieldtype": "Int",
+   "label": "TP_Del_Desp"
+  },
+  {
+   "fieldname": "tp_del_lo",
+   "fieldtype": "Int",
+   "label": "TP_Del_LO"
+  },
+  {
+   "fieldname": "tp_del_lo_w",
+   "fieldtype": "Int",
+   "label": "TP_Del_LO_W"
+  },
+  {
+   "fieldname": "tp_c_ob",
+   "fieldtype": "Int",
+   "label": "TP_C_OB"
+  },
+  {
+   "fieldname": "tp_c_recd",
+   "fieldtype": "Int",
+   "label": "TP_C_Recd"
+  },
+  {
+   "fieldname": "tp_c_total",
+   "fieldtype": "Int",
+   "label": "TP_C_Total"
+  },
+  {
+   "fieldname": "tp_c_desp",
+   "fieldtype": "Int",
+   "label": "TP_C_Desp"
+  },
+  {
+   "fieldname": "tp_c_lo",
+   "fieldtype": "Int",
+   "label": "TP_C_LO"
+  },
+  {
+   "fieldname": "tp_c_lo_w",
+   "fieldtype": "Int",
+   "label": "TP_C_LO_W"
+  },
+  {
+   "fieldname": "tp_c_lo_desc",
+   "fieldtype": "Small Text",
+   "label": "TP_C_LO_Desc"
+  },
+  {
+   "fieldname": "tp_p_ob",
+   "fieldtype": "Int",
+   "label": "TP_P_OB"
+  },
+  {
+   "fieldname": "tp_p_recd",
+   "fieldtype": "Int",
+   "label": "TP_P_Recd"
+  },
+  {
+   "fieldname": "tp_p_total",
+   "fieldtype": "Int",
+   "label": "TP_P_Total"
+  },
+  {
+   "fieldname": "tp_p_desp",
+   "fieldtype": "Int",
+   "label": "TP_P_Desp"
+  },
+  {
+   "fieldname": "tp_p_lo",
+   "fieldtype": "Int",
+   "label": "TP_P_LO"
+  },
+  {
+   "fieldname": "tp_p_lo_w",
+   "fieldtype": "Int",
+   "label": "TP_P_LO_W"
+  },
+  {
+   "fieldname": "tp_p_lo_desc",
+   "fieldtype": "Small Text",
+   "label": "TP_P_LO_Desc"
+  },
+  {
+   "fieldname": "pf_del",
+   "fieldtype": "Int",
+   "label": "PF_Del"
+  },
+  {
+   "fieldname": "iw",
+   "fieldtype": "Int",
+   "label": "IW"
+  },
+  {
+   "fieldname": "sect",
+   "fieldtype": "Int",
+   "label": "Sect"
+  },
+  {
+   "fieldname": "pf_lo",
+   "fieldtype": "Small Text",
+   "label": "PF_LO"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-09-04 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Parcel And Goods",
+ "name": "Parcel Daily Position",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "tr_date",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

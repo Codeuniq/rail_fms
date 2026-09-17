@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "autoname": "hash",
+ "creation": "2026-09-04 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "rec_id",
+  "special_train",
+  "train",
+  "tr_date",
+  "c_1",
+  "c_2",
+  "c_3",
+  "c_4",
+  "c_5",
+  "c_6",
+  "c_7",
+  "c_8",
+  "entered"
+ ],
+ "fields": [
+  {
+   "fieldname": "rec_id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Rec_ID",
+   "search_index": 1
+  },
+  {
+   "fieldname": "special_train",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Special Train",
+   "options": "Special Train"
+  },
+  {
+   "fieldname": "train",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Train",
+   "options": "Train",
+   "search_index": 1
+  },
+  {
+   "fieldname": "tr_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "TrDate"
+  },
+  {
+   "fieldname": "c_1",
+   "fieldtype": "Int",
+   "label": "C1"
+  },
+  {
+   "fieldname": "c_2",
+   "fieldtype": "Int",
+   "label": "C2"
+  },
+  {
+   "fieldname": "c_3",
+   "fieldtype": "Int",
+   "label": "C3"
+  },
+  {
+   "fieldname": "c_4",
+   "fieldtype": "Int",
+   "label": "C4"
+  },
+  {
+   "fieldname": "c_5",
+   "fieldtype": "Int",
+   "label": "C5"
+  },
+  {
+   "fieldname": "c_6",
+   "fieldtype": "Int",
+   "label": "C6"
+  },
+  {
+   "fieldname": "c_7",
+   "fieldtype": "Int",
+   "label": "C7"
+  },
+  {
+   "fieldname": "c_8",
+   "fieldtype": "Int",
+   "label": "C8"
+  },
+  {
+   "fieldname": "entered",
+   "fieldtype": "Check",
+   "label": "Entered"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-09-04 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Reservation And Occupancy",
+ "name": "Special Train Occupancy",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "tr_date",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 0
+}

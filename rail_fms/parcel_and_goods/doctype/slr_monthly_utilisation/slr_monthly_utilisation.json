@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2026-09-04 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "month",
+  "mon_id",
+  "train",
+  "train_name",
+  "act_wt",
+  "days",
+  "perc"
+ ],
+ "fields": [
+  {
+   "fieldname": "month",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Month",
+   "length": 10
+  },
+  {
+   "fieldname": "mon_id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "MonID"
+  },
+  {
+   "fieldname": "train",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Train",
+   "options": "Train",
+   "search_index": 1
+  },
+  {
+   "fieldname": "train_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "TrainName",
+   "length": 50
+  },
+  {
+   "fieldname": "act_wt",
+   "fieldtype": "Float",
+   "label": "ActWt"
+  },
+  {
+   "fieldname": "days",
+   "fieldtype": "Int",
+   "label": "Days"
+  },
+  {
+   "fieldname": "perc",
+   "fieldtype": "Float",
+   "label": "Perc"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-09-04 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Parcel And Goods",
+ "name": "SLR Monthly Utilisation",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

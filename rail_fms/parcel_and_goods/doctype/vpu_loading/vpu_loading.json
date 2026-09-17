@@ -1,0 +1,134 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "autoname": "hash",
+ "creation": "2026-09-04 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tr_date",
+  "train",
+  "wagon_type",
+  "wag_no",
+  "cc",
+  "from_stn",
+  "to_stn",
+  "pkgs",
+  "weight",
+  "amount",
+  "additional",
+  "leased",
+  "special",
+  "period"
+ ],
+ "fields": [
+  {
+   "fieldname": "tr_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "TrDate"
+  },
+  {
+   "fieldname": "train",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Train",
+   "options": "Train",
+   "search_index": 1
+  },
+  {
+   "fieldname": "wagon_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Type",
+   "length": 10
+  },
+  {
+   "fieldname": "wag_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "WagNo",
+   "length": 50
+  },
+  {
+   "fieldname": "cc",
+   "fieldtype": "Currency",
+   "label": "CC"
+  },
+  {
+   "fieldname": "from_stn",
+   "fieldtype": "Link",
+   "label": "FromStn",
+   "options": "Railway Station"
+  },
+  {
+   "fieldname": "to_stn",
+   "fieldtype": "Link",
+   "label": "ToStn",
+   "options": "Railway Station"
+  },
+  {
+   "fieldname": "pkgs",
+   "fieldtype": "Int",
+   "label": "Pkgs"
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Float",
+   "label": "Weight"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "Amount"
+  },
+  {
+   "fieldname": "additional",
+   "fieldtype": "Check",
+   "label": "Additional"
+  },
+  {
+   "fieldname": "leased",
+   "fieldtype": "Check",
+   "label": "Leased"
+  },
+  {
+   "fieldname": "special",
+   "fieldtype": "Check",
+   "label": "Special"
+  },
+  {
+   "fieldname": "period",
+   "fieldtype": "Data",
+   "label": "Period",
+   "length": 10
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-09-04 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Parcel And Goods",
+ "name": "VPU Loading",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "tr_date",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 0
+}

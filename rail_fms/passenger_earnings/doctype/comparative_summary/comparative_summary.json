@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2026-09-04 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "station",
+  "passg",
+  "mst",
+  "qst",
+  "earn",
+  "prior"
+ ],
+ "fields": [
+  {
+   "fieldname": "station",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Station",
+   "options": "Railway Station",
+   "search_index": 1
+  },
+  {
+   "fieldname": "passg",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Passg"
+  },
+  {
+   "fieldname": "mst",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "MST"
+  },
+  {
+   "fieldname": "qst",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "QST"
+  },
+  {
+   "fieldname": "earn",
+   "fieldtype": "Currency",
+   "label": "Earn"
+  },
+  {
+   "fieldname": "prior",
+   "fieldtype": "Currency",
+   "label": "Prior"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-09-04 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Passenger Earnings",
+ "name": "Comparative Summary",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

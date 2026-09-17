@@ -1,0 +1,118 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2026-09-04 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "train",
+  "wagon",
+  "party",
+  "days",
+  "wt",
+  "rate",
+  "destn",
+  "upto",
+  "closed",
+  "dos",
+  "field_1"
+ ],
+ "fields": [
+  {
+   "fieldname": "train",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Train",
+   "options": "Train",
+   "search_index": 1
+  },
+  {
+   "fieldname": "wagon",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Wagon",
+   "length": 10
+  },
+  {
+   "fieldname": "party",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Party",
+   "length": 30
+  },
+  {
+   "fieldname": "days",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Days",
+   "length": 20
+  },
+  {
+   "fieldname": "wt",
+   "fieldtype": "Int",
+   "label": "Wt"
+  },
+  {
+   "fieldname": "rate",
+   "fieldtype": "Currency",
+   "label": "Rate"
+  },
+  {
+   "fieldname": "destn",
+   "fieldtype": "Link",
+   "label": "Destn",
+   "options": "Railway Station"
+  },
+  {
+   "fieldname": "upto",
+   "fieldtype": "Date",
+   "label": "Upto"
+  },
+  {
+   "fieldname": "closed",
+   "fieldtype": "Check",
+   "label": "Closed"
+  },
+  {
+   "fieldname": "dos",
+   "fieldtype": "Data",
+   "label": "DOS",
+   "length": 10
+  },
+  {
+   "fieldname": "field_1",
+   "fieldtype": "Small Text",
+   "label": "Field1"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-09-04 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Rail Masters",
+ "name": "Lease Rate",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "train,party,destn",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "party",
+ "track_changes": 1
+}

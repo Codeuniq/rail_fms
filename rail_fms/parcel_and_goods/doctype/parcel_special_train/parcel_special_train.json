@@ -1,0 +1,185 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2026-09-04 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tr_date",
+  "trip",
+  "from_stn",
+  "to_stn",
+  "ho",
+  "dep_1",
+  "dep_2",
+  "arr_1",
+  "arr_2",
+  "wagon",
+  "wag_type",
+  "cc",
+  "load_from",
+  "load_to",
+  "pkgs",
+  "weight",
+  "amount",
+  "remarks",
+  "footnote",
+  "direction",
+  "last_modified",
+  "legacy_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "tr_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "TrDate",
+   "search_index": 1
+  },
+  {
+   "fieldname": "trip",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Trip"
+  },
+  {
+   "fieldname": "from_stn",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "FromStn",
+   "options": "Railway Station"
+  },
+  {
+   "fieldname": "to_stn",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "ToStn",
+   "options": "Railway Station"
+  },
+  {
+   "fieldname": "ho",
+   "fieldtype": "Data",
+   "label": "HO",
+   "length": 20
+  },
+  {
+   "fieldname": "dep_1",
+   "fieldtype": "Date",
+   "label": "Dep1"
+  },
+  {
+   "fieldname": "dep_2",
+   "fieldtype": "Time",
+   "label": "Dep2"
+  },
+  {
+   "fieldname": "arr_1",
+   "fieldtype": "Date",
+   "label": "Arr1"
+  },
+  {
+   "fieldname": "arr_2",
+   "fieldtype": "Time",
+   "label": "Arr2"
+  },
+  {
+   "fieldname": "wagon",
+   "fieldtype": "Data",
+   "label": "Wagon",
+   "length": 100
+  },
+  {
+   "fieldname": "wag_type",
+   "fieldtype": "Data",
+   "label": "WagType",
+   "length": 10
+  },
+  {
+   "fieldname": "cc",
+   "fieldtype": "Currency",
+   "label": "CC"
+  },
+  {
+   "fieldname": "load_from",
+   "fieldtype": "Link",
+   "label": "LoadFrom",
+   "options": "Railway Station"
+  },
+  {
+   "fieldname": "load_to",
+   "fieldtype": "Link",
+   "label": "LoadTo",
+   "options": "Railway Station"
+  },
+  {
+   "fieldname": "pkgs",
+   "fieldtype": "Int",
+   "label": "Pkgs"
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Float",
+   "label": "Weight"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "Amount"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "footnote",
+   "fieldtype": "Small Text",
+   "label": "Footnote"
+  },
+  {
+   "fieldname": "direction",
+   "fieldtype": "Data",
+   "label": "Direction",
+   "length": 10
+  },
+  {
+   "fieldname": "last_modified",
+   "fieldtype": "Datetime",
+   "label": "LastModified"
+  },
+  {
+   "fieldname": "legacy_id",
+   "fieldtype": "Int",
+   "label": "Legacy ID",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-09-04 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Parcel And Goods",
+ "name": "Parcel Special Train",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "tr_date",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

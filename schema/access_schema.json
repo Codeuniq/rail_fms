@@ -1,0 +1,7377 @@
+{
+	"'02 AUG 2021$'_ImportErrors": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Error",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Field",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Row",
+				"nullable": true
+			}
+		],
+		"row_count": 1
+	},
+	"'Summ (2)$'_ImportErrors": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Error",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Field",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Row",
+				"nullable": true
+			}
+		],
+		"row_count": 1
+	},
+	"Actuals": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "LastDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "PasEarnMon",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "GdsEarnMon",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "PlsEarnMon",
+				"nullable": true
+			},
+			{
+				"access_type": "Single",
+				"autonumber": false,
+				"length": 4,
+				"name": "SunEarnMon",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "PasEarnCum",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "GdsEarnCum",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "PlsEarnCum",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "SunEarnCum",
+				"nullable": true
+			},
+			{
+				"access_type": "Single",
+				"autonumber": false,
+				"length": 4,
+				"name": "U_F_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Single",
+				"autonumber": false,
+				"length": 4,
+				"name": "U_O_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Single",
+				"autonumber": false,
+				"length": 4,
+				"name": "U_Tot_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Single",
+				"autonumber": false,
+				"length": 4,
+				"name": "U_F_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Single",
+				"autonumber": false,
+				"length": 4,
+				"name": "U_O_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Single",
+				"autonumber": false,
+				"length": 4,
+				"name": "U_Tot_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_F_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_C_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_T_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_S_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_R_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_O_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_Tot_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_F_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_C_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_T_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_S_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_R_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_O_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_Tot_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Single",
+				"autonumber": false,
+				"length": 4,
+				"name": "E_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Single",
+				"autonumber": false,
+				"length": 4,
+				"name": "E_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Single",
+				"autonumber": false,
+				"length": 4,
+				"name": "Pass_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Single",
+				"autonumber": false,
+				"length": 4,
+				"name": "Pass_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Single",
+				"autonumber": false,
+				"length": 4,
+				"name": "MST_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Single",
+				"autonumber": false,
+				"length": 4,
+				"name": "QST_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Single",
+				"autonumber": false,
+				"length": 4,
+				"name": "ST_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Single",
+				"autonumber": false,
+				"length": 4,
+				"name": "MST_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Single",
+				"autonumber": false,
+				"length": 4,
+				"name": "QST_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Single",
+				"autonumber": false,
+				"length": 4,
+				"name": "ST_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Single",
+				"autonumber": false,
+				"length": 4,
+				"name": "TC_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Single",
+				"autonumber": false,
+				"length": 4,
+				"name": "TC_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "IR_T_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "IR_A_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "IR_T_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "IR_A_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Single",
+				"autonumber": false,
+				"length": 4,
+				"name": "PRS_P_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Single",
+				"autonumber": false,
+				"length": 4,
+				"name": "PRS_P_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Single",
+				"autonumber": false,
+				"length": 4,
+				"name": "PRS_A_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Single",
+				"autonumber": false,
+				"length": 4,
+				"name": "PRS_A_C",
+				"nullable": true
+			}
+		],
+		"row_count": 346
+	},
+	"CommLdg": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Station",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Commodity",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Category",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Destn",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Consignor",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Consignee",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 100,
+				"name": "Wagons",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 100,
+				"name": "RR",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Units",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Weight",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Amount",
+				"nullable": true
+			}
+		],
+		"row_count": 26008
+	},
+	"Commodities": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Category",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Commodity",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Item",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Priority",
+				"nullable": true
+			}
+		],
+		"row_count": 88
+	},
+	"CompSum": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Station",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Passg",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "MST",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "QST",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Earn",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Prior",
+				"nullable": true
+			}
+		],
+		"row_count": 38
+	},
+	"Copy Of EarnPRS 30june2021": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Station",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Forms",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Tickets",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Passengers",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "GrossEarn",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ref_Pass",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Refund",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "NetEarn",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CC",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Ctrs",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CtrsMng",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CtrsEvg",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Rolls",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "NI",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "SpCan",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Priority",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "DisplayOrder",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Disp12Stn",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "DivChgEarn",
+				"nullable": true
+			}
+		],
+		"row_count": 121487
+	},
+	"Demands": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Station",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "DemandNo",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "RegnDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Commodity",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Destn",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "ReqdDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "ReqType",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Party",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Remarks",
+				"nullable": true
+			}
+		],
+		"row_count": 3
+	},
+	"EarnCopy": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Station",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Tickets",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Passengers",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Amount1",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "MST",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "QST",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Amount2",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "SplCanc",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "RefundTkt",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Refund",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "PF",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "PF_AVM",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "CC",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Sundries",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Pkgs",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Weight",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Amount3",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ctrs1",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ctrs2",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ctrs3",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Priority",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "DisplayOrder",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Disp12Stn",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "DivChgEarn",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Error",
+				"nullable": true
+			}
+		],
+		"row_count": 47595
+	},
+	"EarnDiv": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "LastDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "P_PRS",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "A_PRS",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "P_Oth",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "A_Oth",
+				"nullable": true
+			}
+		],
+		"row_count": 0
+	},
+	"EarnPRS": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Station",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Forms",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Tickets",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Passengers",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "GrossEarn",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ref_Pass",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Refund",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "NetEarn",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CC",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Ctrs",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CtrsMng",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CtrsEvg",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Rolls",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "NI",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "SpCan",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Priority",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "DisplayOrder",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Disp12Stn",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "DivChgEarn",
+				"nullable": true
+			}
+		],
+		"row_count": 123460
+	},
+	"EarnPRS 2018": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Station",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Forms",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Tickets",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Passengers",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "GrossEarn",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ref_Pass",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Refund",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "NetEarn",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CC",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Ctrs",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CtrsMng",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CtrsEvg",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Rolls",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "NI",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "SpCan",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Priority",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "DisplayOrder",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Disp12Stn",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "DivChgEarn",
+				"nullable": true
+			}
+		],
+		"row_count": 120745
+	},
+	"EarnPRS_2011": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Station",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Forms",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Tickets",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Passengers",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "GrossEarn",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ref_Pass",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Refund",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "NetEarn",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CC",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Ctrs",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CtrsMng",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CtrsEvg",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Rolls",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "NI",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "SpCan",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Priority",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "DisplayOrder",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Disp12Stn",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "DivChgEarn",
+				"nullable": true
+			}
+		],
+		"row_count": 131059
+	},
+	"EarnPRS_2013": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Station",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Forms",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Tickets",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Passengers",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "GrossEarn",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ref_Pass",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Refund",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "NetEarn",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CC",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Ctrs",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CtrsMng",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CtrsEvg",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Rolls",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "NI",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "SpCan",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Priority",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "DisplayOrder",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Disp12Stn",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "DivChgEarn",
+				"nullable": true
+			}
+		],
+		"row_count": 23500
+	},
+	"EarnPRS_2015": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Station",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Forms",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Tickets",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Passengers",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "GrossEarn",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ref_Pass",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Refund",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "NetEarn",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CC",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Ctrs",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CtrsMng",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CtrsEvg",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Rolls",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "NI",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "SpCan",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Priority",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "DisplayOrder",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Disp12Stn",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "DivChgEarn",
+				"nullable": true
+			}
+		],
+		"row_count": 42169
+	},
+	"EarnPRS_Cur": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Station",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Forms",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Tickets",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Passengers",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "GrossEarn",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ref_Pass",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Refund",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "NetEarn",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CC",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Ctrs",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CtrsMng",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CtrsEvg",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Rolls",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "NI",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "SpCan",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Priority",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "DisplayOrder",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Disp12Stn",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "DivChgEarn",
+				"nullable": true
+			}
+		],
+		"row_count": 43964
+	},
+	"EarnPRS_MAR2006": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Station",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Forms",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Tickets",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Passengers",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "GrossEarn",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ref_Pass",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Refund",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "NetEarn",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CC",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Ctrs",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CtrsMng",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CtrsEvg",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Rolls",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "NI",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "SpCan",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Priority",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "DisplayOrder",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Disp12Stn",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "DivChgEarn",
+				"nullable": true
+			}
+		],
+		"row_count": 58199
+	},
+	"EarnStn": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Station",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Tickets",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Passengers",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Amount1",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "MST",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "QST",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "HST",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "YST",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Amount2",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "NI",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "SplCanc",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "RefundTkt",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Refund",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "PF",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "PF_AVM",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "CC",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Sundries",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Pkgs",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Weight",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Amount3",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ctrs1",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ctrs2",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ctrs3",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Priority",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "DisplayOrder",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Disp12Stn",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "DivChgEarn",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Error",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Rolls",
+				"nullable": true
+			}
+		],
+		"row_count": 953515
+	},
+	"EarnStn1": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Station",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Tickets",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Passengers",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Amount1",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "MST",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "QST",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Amount2",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "SplCanc",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "RefundTkt",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Refund",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "PF",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "PF_AVM",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "CC",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Sundries",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Pkgs",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Weight",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Amount3",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ctrs1",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ctrs2",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ctrs3",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Priority",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "DisplayOrder",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Disp12Stn",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "DivChgEarn",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Error",
+				"nullable": true
+			}
+		],
+		"row_count": 38
+	},
+	"EarnStn_2011": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Station",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Tickets",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Passengers",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Amount1",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "MST",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "QST",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "HST",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "YST",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Amount2",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "NI",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "SplCanc",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "RefundTkt",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Refund",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "PF",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "PF_AVM",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "CC",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Sundries",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Pkgs",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Weight",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Amount3",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ctrs1",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ctrs2",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ctrs3",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Priority",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "DisplayOrder",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Disp12Stn",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "DivChgEarn",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Error",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Rolls",
+				"nullable": true
+			}
+		],
+		"row_count": 485984
+	},
+	"EarnStn_2013": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Station",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Tickets",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Passengers",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Amount1",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "MST",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "QST",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "HST",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "YST",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Amount2",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "NI",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "SplCanc",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "RefundTkt",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Refund",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "PF",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "PF_AVM",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "CC",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Sundries",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Pkgs",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Weight",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Amount3",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ctrs1",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ctrs2",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ctrs3",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Priority",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "DisplayOrder",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Disp12Stn",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "DivChgEarn",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Error",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Rolls",
+				"nullable": true
+			}
+		],
+		"row_count": 90947
+	},
+	"EarnStn_MAR2006": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Station",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Tickets",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Passengers",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Amount1",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "MST",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "QST",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "HST",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "YST",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Amount2",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "NI",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "SplCanc",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "RefundTkt",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Refund",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "PF",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "PF_AVM",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "CC",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Sundries",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Pkgs",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Weight",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Amount3",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ctrs1",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ctrs2",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ctrs3",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Priority",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "DisplayOrder",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Disp12Stn",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "DivChgEarn",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Error",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Rolls",
+				"nullable": true
+			}
+		],
+		"row_count": 79640
+	},
+	"Errors": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "ErrNo",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 100,
+				"name": "ErrDesc",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TransTime",
+				"nullable": true
+			}
+		],
+		"row_count": 0
+	},
+	"ExtraCoaches": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Train",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Direction",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Coach",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Number",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Occ",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Remarks",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "CoachType",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Earn",
+				"nullable": true
+			}
+		],
+		"row_count": 34313
+	},
+	"Failures": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Station",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Time",
+				"length": 8,
+				"name": "F_Time",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Time",
+				"length": 8,
+				"name": "T_Time",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 250,
+				"name": "Reason",
+				"nullable": true
+			}
+		],
+		"row_count": 26924
+	},
+	"Feb05": {
+		"columns": [
+			{
+				"access_type": "Long",
+				"autonumber": true,
+				"length": 4,
+				"name": "ID",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "1",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "2",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "3",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "4",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "5",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "6",
+				"nullable": true
+			}
+		],
+		"row_count": 52
+	},
+	"GenInfo": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Zone",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Division",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 250,
+				"name": "Background",
+				"nullable": true
+			}
+		],
+		"row_count": 1
+	},
+	"IMP$_ImportErrors1": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Error",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Field",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Row",
+				"nullable": true
+			}
+		],
+		"row_count": 3
+	},
+	"Jan05": {
+		"columns": [
+			{
+				"access_type": "Long",
+				"autonumber": true,
+				"length": 4,
+				"name": "ID",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "1",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "2",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "3",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "4",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "5",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "6",
+				"nullable": true
+			}
+		],
+		"row_count": 55
+	},
+	"Jun05": {
+		"columns": [
+			{
+				"access_type": "Long",
+				"autonumber": true,
+				"length": 4,
+				"name": "ID",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "1",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "2",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "3",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "4",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "5",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "6",
+				"nullable": true
+			}
+		],
+		"row_count": 52
+	},
+	"Lease": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Train",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Wagon",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "SLR",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "WagCnt",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Pkgs",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Wt",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Amt",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Destn",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Party",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "Loaded",
+				"nullable": true
+			}
+		],
+		"row_count": 216529
+	},
+	"LeaseRates": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Train",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Wagon",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 30,
+				"name": "Party",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Days",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Wt",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Rate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Destn",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "Upto",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "Closed",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "DOS",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Field1",
+				"nullable": true
+			}
+		],
+		"row_count": 330
+	},
+	"LeftOvers": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Section",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Destn",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Pkgs",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Weight",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 250,
+				"name": "Despatch",
+				"nullable": true
+			}
+		],
+		"row_count": 40552
+	},
+	"Mar05": {
+		"columns": [
+			{
+				"access_type": "Long",
+				"autonumber": true,
+				"length": 4,
+				"name": "ID",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "1",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "2",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "3",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "4",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "5",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "6",
+				"nullable": true
+			}
+		],
+		"row_count": 52
+	},
+	"New_Lease": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Train",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Wagon",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "SLR",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "WagCnt",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Pkgs",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Wt",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Amt",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Destn",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Party",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "Loaded",
+				"nullable": true
+			}
+		],
+		"row_count": 216529
+	},
+	"OnHandVPH": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Train",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "ArrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Wagon",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Brake",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Status",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Remarks",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "Cleared",
+				"nullable": true
+			}
+		],
+		"row_count": 18460
+	},
+	"PRS_MAP": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "CCRB",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "CONSOLE",
+				"nullable": true
+			}
+		],
+		"row_count": 85
+	},
+	"PRS_Sum_C": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Station",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Expr1001",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Expr1002",
+				"nullable": true
+			}
+		],
+		"row_count": 85
+	},
+	"PRS_Sum_P": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Station",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Expr1001",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Expr1002",
+				"nullable": true
+			}
+		],
+		"row_count": 86
+	},
+	"ParcelCum": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "LastDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "PkgsP",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "WtP",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "AmtP",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "PkgsL",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "WtL",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "AmtL",
+				"nullable": true
+			}
+		],
+		"row_count": 266
+	},
+	"ParcelEarn": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "PkgsP",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "WtP",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "AmtP",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "PkgsL",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "WtL",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "AmtL",
+				"nullable": true
+			}
+		],
+		"row_count": 8293
+	},
+	"ParcelSpl": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Trip",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "FromStn",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "ToStn",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "HO",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "Dep1",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Time",
+				"length": 8,
+				"name": "Dep2",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "Arr1",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Time",
+				"length": 8,
+				"name": "Arr2",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 100,
+				"name": "Wagon",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "WagType",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "CC",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "LoadFrom",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "LoadTo",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Pkgs",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Weight",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Amount",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 250,
+				"name": "Remarks",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 250,
+				"name": "Footnote",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Direction",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Datetime",
+				"length": 8,
+				"name": "LastModified",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": true,
+				"length": 4,
+				"name": "ID",
+				"nullable": true
+			}
+		],
+		"row_count": 1793
+	},
+	"Parcels": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "PerOB",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "PerBkd",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "PerTotal",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "PerDesp",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "PerLO",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "PerLO_W",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "NPerOB",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "NPerBkd",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "NPerTotal",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "NPerDesp",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "NPerLO",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "NPerLO_W",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 100,
+				"name": "OldestOW",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "ParSpl_P",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "ParSpl_W",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "OW_GTL_LO",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "OW_MAS_LO",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "OW_ASK_LO",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 250,
+				"name": "OW_GTL_LO_Desc",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 250,
+				"name": "OW_MAS_LO_Desc",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 250,
+				"name": "OW_ASK_LO_Desc",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "TP_Div_OB",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "TP_Div_Recd",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "TP_Div_Total",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "TP_Div_Desp",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "TP_Div_LO",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "TP_Div_LO_W",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 250,
+				"name": "TP_LO",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 250,
+				"name": "TP_Oldest",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "TP_Del_OB",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "TP_Del_Recd",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "TP_Del_Total",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "TP_Del_Desp",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "TP_Del_LO",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "TP_Del_LO_W",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "TP_C_OB",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "TP_C_Recd",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "TP_C_Total",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "TP_C_Desp",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "TP_C_LO",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "TP_C_LO_W",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 250,
+				"name": "TP_C_LO_Desc",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "TP_P_OB",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "TP_P_Recd",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "TP_P_Total",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "TP_P_Desp",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "TP_P_LO",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "TP_P_LO_W",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 250,
+				"name": "TP_P_LO_Desc",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "PF_Del",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "IW",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Sect",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 250,
+				"name": "PF_LO",
+				"nullable": true
+			}
+		],
+		"row_count": 7343
+	},
+	"Paste Errors": {
+		"columns": [
+			{
+				"access_type": "Memo",
+				"autonumber": false,
+				"length": 0,
+				"name": "Field0",
+				"nullable": true
+			}
+		],
+		"row_count": 1
+	},
+	"Releases": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Station",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Priority",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "OnHand",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Recvd",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Total",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Placed",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Relsd",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "LeftOver",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "InGrid",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Remarks",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Group",
+				"nullable": true
+			}
+		],
+		"row_count": 87599
+	},
+	"SLR": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Month",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "MonID",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Train",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "TrainName",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "ActWt",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Days",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Perc",
+				"nullable": true
+			}
+		],
+		"row_count": 332
+	},
+	"SLRUtil": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Train",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "WtP",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "AmtP",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "WtL",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "AmtL",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "WtTP",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "WtTotal",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "AmtTotal",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "DayCount",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CC",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "FromStn",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Priority",
+				"nullable": true
+			}
+		],
+		"row_count": 291286
+	},
+	"STN_MAP": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "CCRB",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "CONSOLE",
+				"nullable": true
+			}
+		],
+		"row_count": 117
+	},
+	"Sheet1": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Dir",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "StDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Train",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "StnF",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Chs",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "StnT",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "ChsMan",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Staff",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "AddChs",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Coaches",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "TotChs",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": true,
+				"length": 4,
+				"name": "ID",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "TotUnman",
+				"nullable": true
+			}
+		],
+		"row_count": 1
+	},
+	"Sheet1$_ImportErrors": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Error",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Field",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Row",
+				"nullable": true
+			}
+		],
+		"row_count": 12
+	},
+	"Sheet2": {
+		"columns": [
+			{
+				"access_type": "Long",
+				"autonumber": true,
+				"length": 4,
+				"name": "ID",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Train",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CC",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Type",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "WagNo",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "FromStn",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "ToStn",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Pkgs",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Weight",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Amount",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "Additional",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "Leased",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "Special",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Period",
+				"nullable": true
+			}
+		],
+		"row_count": 1
+	},
+	"Sheet4$_ImportErrors": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Error",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Field",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Row",
+				"nullable": true
+			}
+		],
+		"row_count": 66
+	},
+	"SplClass": {
+		"columns": [
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Rec_ID",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Cls_ID",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Class",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Cap",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Fare",
+				"nullable": true
+			}
+		],
+		"row_count": 11352
+	},
+	"SplOcc": {
+		"columns": [
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Rec_ID",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Train",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "C1",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "C2",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "C3",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "C4",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "C5",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "C6",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "C7",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "C8",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "Entered",
+				"nullable": true
+			}
+		],
+		"row_count": 38168
+	},
+	"SplTrains": {
+		"columns": [
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Rec_ID",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Train",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "FromStn",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "ToStn",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Time",
+				"length": 8,
+				"name": "DepTime",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Remarks",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "Closed",
+				"nullable": true
+			}
+		],
+		"row_count": 1562
+	},
+	"Stations": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Category",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Station",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Counters",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Priority",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "DisplayOrder",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Disp12Stn",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "DefComm",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Options",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 2,
+				"name": "StnCateg",
+				"nullable": true
+			}
+		],
+		"row_count": 519
+	},
+	"Stn_Sum_C": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Station",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Expr1001",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Expr1002",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Expr1003",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Expr1004",
+				"nullable": true
+			}
+		],
+		"row_count": 301
+	},
+	"Stn_Sum_P": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "Station",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Expr1001",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Expr1002",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Expr1003",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Expr1004",
+				"nullable": true
+			}
+		],
+		"row_count": 305
+	},
+	"Suggestions": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 250,
+				"name": "Suggestion",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "LodgedAt",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "ShowAtStartUp",
+				"nullable": true
+			}
+		],
+		"row_count": 0
+	},
+	"Summ$_ImportErrors": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Error",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Field",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Row",
+				"nullable": true
+			}
+		],
+		"row_count": 1
+	},
+	"Targets": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "LastDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "PasEarnMon",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "GdsEarnMon",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "PlsEarnMon",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "SunEarnMon",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "PasEarnCum",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "GdsEarnCum",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "PlsEarnCum",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "SunEarnCum",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "U_F_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "U_O_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "U_Tot_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "U_F_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "U_O_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "U_Tot_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_F_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_C_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_T_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_S_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_R_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_O_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_Tot_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_F_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_C_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_T_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_S_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_R_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_O_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "W_Tot_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "E_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "E_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Pass_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Pass_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "MST_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "QST_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "ST_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "MST_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "QST_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "ST_C",
+				"nullable": true
+			},
+			{
+				"access_type": "Single",
+				"autonumber": false,
+				"length": 4,
+				"name": "TC_M",
+				"nullable": true
+			},
+			{
+				"access_type": "Single",
+				"autonumber": false,
+				"length": 4,
+				"name": "TC_C",
+				"nullable": true
+			}
+		],
+		"row_count": 311
+	},
+	"TrainChange": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Old_Tr",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "New_Tr",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "WEF",
+				"nullable": true
+			}
+		],
+		"row_count": 123
+	},
+	"TrainNew": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Old_Tr",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "New_Tr",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "WEF",
+				"nullable": true
+			}
+		],
+		"row_count": 0
+	},
+	"Trains": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Train",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "TrainName",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Classes",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Tatkal",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "Days",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "DOS",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "CC",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Time",
+				"length": 8,
+				"name": "Departure",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "FromStn",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Destn",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Direction",
+				"nullable": true
+			},
+			{
+				"access_type": "Byte",
+				"autonumber": false,
+				"length": 1,
+				"name": "Dir",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "NextDayPosition",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "Daily",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Priority",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "Resvn",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 6,
+				"name": "Categ",
+				"nullable": true
+			}
+		],
+		"row_count": 242
+	},
+	"Unm": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Dir",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Train",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "StDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "StnF",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "StnT",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Chs",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Staff",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "ChsMan",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "AddChs",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "TotChs",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Coaches",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "TotUnman",
+				"nullable": true
+			}
+		],
+		"row_count": 0
+	},
+	"Unman": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Dir",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Train",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "StDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "StnF",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "StnT",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Chs",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Staff",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "ChsMan",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "AddChs",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "TotChs",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Coaches",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "TotUnman",
+				"nullable": true
+			}
+		],
+		"row_count": 290209
+	},
+	"Unman_ExportErrors": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Error",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Field",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Row",
+				"nullable": true
+			}
+		],
+		"row_count": 29876
+	},
+	"Unman_ExportErrors1": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Error",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Field",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Row",
+				"nullable": true
+			}
+		],
+		"row_count": 29876
+	},
+	"UtsOnMobile": {
+		"columns": [
+			{
+				"access_type": "Long",
+				"autonumber": true,
+				"length": 4,
+				"name": "ID",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "Date",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Division",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Financial_Year",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "LOCN",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "TKT",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "JTKT",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "JPSGN",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "JAMT",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "STKT",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "SPSGN",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "SAMT",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "PLAT",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "PLAT_PSGN",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "PLAT_AMT",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "NON_PRINTED",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CANCEL",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CLERKAGE",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "BONUS_AMT",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "RTOP",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "RTOP AMT",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Total_Passr",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "total_amount",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Field23",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Field24",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Field25",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Field26",
+				"nullable": true
+			}
+		],
+		"row_count": 52583
+	},
+	"VPU": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Train",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Type",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "WagNo",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CC",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "FromStn",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "ToStn",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Pkgs",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Weight",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Amount",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "Additional",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "Leased",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "Special",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Period",
+				"nullable": true
+			}
+		],
+		"row_count": 62194
+	},
+	"WL Oct 04": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Train",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "TrainName",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "AC1",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "AC2",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "AC3",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "FC",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "CC",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "SL",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "ORD",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "TatTom3A",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "TatTomSL",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "TatTod3A",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "TatTodSL",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "A_AC1",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "A_AC2",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "A_AC3",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "A_FC",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "A_CC",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "A_SL",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "A_ORD",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "A_TatTom3A",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "A_TatTomSL",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "A_TatTod3A",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "A_TatTodSL",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "Departure",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "FromStn",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Direction",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Destn",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "DOS",
+				"nullable": true
+			}
+		],
+		"row_count": 18984
+	},
+	"Waitlist": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Train",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "TrainName",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "AC1",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "AC2",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "AC3",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "FC",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "CC",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "SL",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "ORD",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "TA2",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "TA3",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "TCC",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "TSL",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "TatTom3A",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "TatTomSL",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "TatTod3A",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "TatTodSL",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "A_AC1",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "A_AC2",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "A_AC3",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "A_FC",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "A_CC",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "A_SL",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "A_ORD",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "A_TA2",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "A_TA3",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "A_TCC",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "A_TSL",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "A_TatTom3A",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "A_TatTomSL",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "A_TatTod3A",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "A_TatTodSL",
+				"nullable": true
+			},
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Time",
+				"length": 8,
+				"name": "Departure",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 20,
+				"name": "FromStn",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Direction",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 10,
+				"name": "Destn",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 50,
+				"name": "DOS",
+				"nullable": true
+			}
+		],
+		"row_count": 224797
+	},
+	"Waitlist_ExportErrors": {
+		"columns": [
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Error",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Field",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Row",
+				"nullable": true
+			}
+		],
+		"row_count": 21
+	},
+	"prs_t": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Station",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Forms",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Tickets",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Passengers",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "GrossEarn",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ref_Pass",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Refund",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "NetEarn",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CC",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Ctrs",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CtrsMng",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "CtrsEvg",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Rolls",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Priority",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "DisplayOrder",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Disp12Stn",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "DivChgEarn",
+				"nullable": true
+			}
+		],
+		"row_count": 0
+	},
+	"stn_t": {
+		"columns": [
+			{
+				"access_type": "DateTime",
+				"autonumber": false,
+				"date_kind": "Date",
+				"length": 8,
+				"name": "TrDate",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Station",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Tickets",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Passengers",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Amount1",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "MST",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "QST",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Amount2",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "SplCanc",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "RefundTkt",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Refund",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "PF",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "PF_AVM",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "CC",
+				"nullable": true
+			},
+			{
+				"access_type": "Long",
+				"autonumber": false,
+				"length": 4,
+				"name": "Sundries",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Pkgs",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Weight",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Amount3",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ctrs1",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ctrs2",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Ctrs3",
+				"nullable": true
+			},
+			{
+				"access_type": "Double",
+				"autonumber": false,
+				"length": 8,
+				"name": "Priority",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "DisplayOrder",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Disp12Stn",
+				"nullable": true
+			},
+			{
+				"access_type": "Bool",
+				"autonumber": false,
+				"length": 1,
+				"name": "DivChgEarn",
+				"nullable": true
+			},
+			{
+				"access_type": "Text",
+				"autonumber": false,
+				"length": 255,
+				"name": "Error",
+				"nullable": true
+			},
+			{
+				"access_type": "Int",
+				"autonumber": false,
+				"length": 2,
+				"name": "Rolls",
+				"nullable": true
+			}
+		],
+		"row_count": 181331
+	}
+}

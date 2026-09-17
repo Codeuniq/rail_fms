@@ -1,0 +1,170 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:train_no",
+ "creation": "2026-09-04 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "train_no",
+  "train_name",
+  "classes",
+  "tatkal",
+  "days",
+  "dos",
+  "cc",
+  "departure",
+  "from_stn",
+  "destn",
+  "direction",
+  "dir_code",
+  "next_day_position",
+  "daily",
+  "priority",
+  "resvn",
+  "categ",
+  "auto_created"
+ ],
+ "fields": [
+  {
+   "fieldname": "train_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Train",
+   "length": 10,
+   "unique": 1
+  },
+  {
+   "fieldname": "train_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "TrainName",
+   "length": 50
+  },
+  {
+   "fieldname": "classes",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Classes",
+   "length": 50
+  },
+  {
+   "fieldname": "tatkal",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tatkal",
+   "length": 10
+  },
+  {
+   "fieldname": "days",
+   "fieldtype": "Data",
+   "label": "Days",
+   "length": 50
+  },
+  {
+   "fieldname": "dos",
+   "fieldtype": "Data",
+   "label": "DOS",
+   "length": 50
+  },
+  {
+   "fieldname": "cc",
+   "fieldtype": "Currency",
+   "label": "CC"
+  },
+  {
+   "fieldname": "departure",
+   "fieldtype": "Time",
+   "label": "Departure"
+  },
+  {
+   "fieldname": "from_stn",
+   "fieldtype": "Link",
+   "label": "FromStn",
+   "options": "Railway Station"
+  },
+  {
+   "fieldname": "destn",
+   "fieldtype": "Link",
+   "label": "Destn",
+   "options": "Railway Station"
+  },
+  {
+   "fieldname": "direction",
+   "fieldtype": "Int",
+   "label": "Direction"
+  },
+  {
+   "fieldname": "dir_code",
+   "fieldtype": "Int",
+   "label": "Dir"
+  },
+  {
+   "default": "0",
+   "fieldname": "next_day_position",
+   "fieldtype": "Check",
+   "label": "NextDayPosition"
+  },
+  {
+   "default": "0",
+   "fieldname": "daily",
+   "fieldtype": "Check",
+   "label": "Daily"
+  },
+  {
+   "fieldname": "priority",
+   "fieldtype": "Int",
+   "label": "Priority"
+  },
+  {
+   "default": "0",
+   "fieldname": "resvn",
+   "fieldtype": "Check",
+   "label": "Resvn"
+  },
+  {
+   "fieldname": "categ",
+   "fieldtype": "Data",
+   "label": "Categ",
+   "length": 6
+  },
+  {
+   "default": "0",
+   "description": "Created to satisfy a link from imported data. Not present in the Access master.",
+   "fieldname": "auto_created",
+   "fieldtype": "Check",
+   "label": "Auto Created",
+   "read_only": 1
+  }
+ ],
+ "links": [],
+ "modified": "2026-09-13 22:47:02.432053",
+ "modified_by": "Administrator",
+ "module": "Rail Masters",
+ "name": "Train",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "search_fields": "train_no,train_name,from_stn,destn",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "train_name",
+ "track_changes": 1
+}

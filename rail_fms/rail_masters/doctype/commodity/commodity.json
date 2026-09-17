@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:commodity_name",
+ "creation": "2026-09-04 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "commodity_name",
+  "categories",
+  "auto_created"
+ ],
+ "fields": [
+  {
+   "fieldname": "commodity_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Commodity",
+   "length": 50,
+   "unique": 1
+  },
+  {
+   "fieldname": "categories",
+   "fieldtype": "Table",
+   "label": "Categories",
+   "options": "Commodity Category"
+  },
+  {
+   "default": "0",
+   "description": "Created to satisfy a link from imported data. Not present in the Access master.",
+   "fieldname": "auto_created",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Auto Created",
+   "read_only": 1
+  }
+ ],
+ "links": [],
+ "modified": "2026-09-17 20:45:17.186994",
+ "modified_by": "Administrator",
+ "module": "Rail Masters",
+ "name": "Commodity",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "search_fields": "commodity_name",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "commodity_name",
+ "track_changes": 1
+}

@@ -1,0 +1,82 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "autoname": "hash",
+ "creation": "2026-09-04 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "rec_id",
+  "special_train",
+  "cls_id",
+  "travel_class",
+  "cap",
+  "fare"
+ ],
+ "fields": [
+  {
+   "fieldname": "rec_id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Rec_ID",
+   "search_index": 1
+  },
+  {
+   "fieldname": "special_train",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Special Train",
+   "options": "Special Train"
+  },
+  {
+   "fieldname": "cls_id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Cls_ID"
+  },
+  {
+   "fieldname": "travel_class",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Class",
+   "length": 50
+  },
+  {
+   "fieldname": "cap",
+   "fieldtype": "Int",
+   "label": "Cap"
+  },
+  {
+   "fieldname": "fare",
+   "fieldtype": "Currency",
+   "label": "Fare"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-09-04 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Rail Masters",
+ "name": "Special Train Class",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 0
+}

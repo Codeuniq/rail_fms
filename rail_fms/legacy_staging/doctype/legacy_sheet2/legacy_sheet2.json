@@ -1,0 +1,139 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2026-09-04 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "legacy_id",
+  "tr_date",
+  "train",
+  "cc",
+  "wagon_type",
+  "wag_no",
+  "from_stn",
+  "to_stn",
+  "pkgs",
+  "weight",
+  "amount",
+  "additional",
+  "leased",
+  "special",
+  "period"
+ ],
+ "fields": [
+  {
+   "fieldname": "legacy_id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Legacy ID",
+   "read_only": 1
+  },
+  {
+   "fieldname": "tr_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "TrDate",
+   "search_index": 1
+  },
+  {
+   "fieldname": "train",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Train",
+   "options": "Train",
+   "search_index": 1
+  },
+  {
+   "fieldname": "cc",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "CC"
+  },
+  {
+   "fieldname": "wagon_type",
+   "fieldtype": "Small Text",
+   "label": "Type"
+  },
+  {
+   "fieldname": "wag_no",
+   "fieldtype": "Small Text",
+   "label": "WagNo"
+  },
+  {
+   "fieldname": "from_stn",
+   "fieldtype": "Link",
+   "label": "FromStn",
+   "options": "Railway Station"
+  },
+  {
+   "fieldname": "to_stn",
+   "fieldtype": "Link",
+   "label": "ToStn",
+   "options": "Railway Station"
+  },
+  {
+   "fieldname": "pkgs",
+   "fieldtype": "Float",
+   "label": "Pkgs"
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Float",
+   "label": "Weight"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "Amount"
+  },
+  {
+   "fieldname": "additional",
+   "fieldtype": "Check",
+   "label": "Additional"
+  },
+  {
+   "fieldname": "leased",
+   "fieldtype": "Check",
+   "label": "Leased"
+  },
+  {
+   "fieldname": "special",
+   "fieldtype": "Check",
+   "label": "Special"
+  },
+  {
+   "fieldname": "period",
+   "fieldtype": "Small Text",
+   "label": "Period"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-09-04 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Legacy Staging",
+ "name": "Legacy Sheet2",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "tr_date",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

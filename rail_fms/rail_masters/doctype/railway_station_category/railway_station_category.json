@@ -1,0 +1,86 @@
+{
+ "actions": [],
+ "creation": "2026-09-04 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "category",
+  "tr_date",
+  "counters",
+  "priority",
+  "display_order",
+  "disp_12_stn",
+  "def_comm",
+  "options",
+  "stn_categ"
+ ],
+ "fields": [
+  {
+   "fieldname": "category",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Category",
+   "length": 50
+  },
+  {
+   "fieldname": "tr_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "TrDate",
+   "search_index": 1
+  },
+  {
+   "fieldname": "counters",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Counters"
+  },
+  {
+   "fieldname": "priority",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Priority"
+  },
+  {
+   "fieldname": "display_order",
+   "fieldtype": "Int",
+   "label": "DisplayOrder"
+  },
+  {
+   "fieldname": "disp_12_stn",
+   "fieldtype": "Int",
+   "label": "Disp12Stn"
+  },
+  {
+   "fieldname": "def_comm",
+   "fieldtype": "Link",
+   "label": "DefComm",
+   "options": "Commodity"
+  },
+  {
+   "fieldname": "options",
+   "fieldtype": "Data",
+   "label": "Options",
+   "length": 50
+  },
+  {
+   "fieldname": "stn_categ",
+   "fieldtype": "Data",
+   "label": "StnCateg",
+   "length": 2
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-09-04 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Rail Masters",
+ "name": "Railway Station Category",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "idx",
+ "sort_order": "ASC",
+ "states": []
+}

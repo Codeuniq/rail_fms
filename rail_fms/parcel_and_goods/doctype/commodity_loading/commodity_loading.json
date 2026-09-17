@@ -1,0 +1,124 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "autoname": "hash",
+ "creation": "2026-09-04 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tr_date",
+  "station",
+  "commodity",
+  "category",
+  "destn",
+  "consignor",
+  "consignee",
+  "wagons",
+  "rr",
+  "units",
+  "weight",
+  "amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "tr_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "TrDate"
+  },
+  {
+   "fieldname": "station",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Station",
+   "options": "Railway Station",
+   "search_index": 1
+  },
+  {
+   "fieldname": "commodity",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Commodity",
+   "options": "Commodity"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Category",
+   "length": 20
+  },
+  {
+   "fieldname": "destn",
+   "fieldtype": "Link",
+   "label": "Destn",
+   "options": "Railway Station"
+  },
+  {
+   "fieldname": "consignor",
+   "fieldtype": "Data",
+   "label": "Consignor",
+   "length": 50
+  },
+  {
+   "fieldname": "consignee",
+   "fieldtype": "Data",
+   "label": "Consignee",
+   "length": 50
+  },
+  {
+   "fieldname": "wagons",
+   "fieldtype": "Data",
+   "label": "Wagons",
+   "length": 100
+  },
+  {
+   "fieldname": "rr",
+   "fieldtype": "Data",
+   "label": "RR",
+   "length": 100
+  },
+  {
+   "fieldname": "units",
+   "fieldtype": "Float",
+   "label": "Units"
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Float",
+   "label": "Weight"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "Amount"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-09-04 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Parcel And Goods",
+ "name": "Commodity Loading",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "tr_date",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 0
+}

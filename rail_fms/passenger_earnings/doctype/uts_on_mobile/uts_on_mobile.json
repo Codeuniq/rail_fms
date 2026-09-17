@@ -1,0 +1,205 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "hash",
+ "creation": "2026-09-04 00:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "legacy_id",
+  "uts_date",
+  "division",
+  "financial_year",
+  "locn",
+  "tkt",
+  "jtkt",
+  "jpsgn",
+  "jamt",
+  "stkt",
+  "spsgn",
+  "samt",
+  "plat",
+  "plat_psgn",
+  "plat_amt",
+  "non_printed",
+  "canceled",
+  "clerkage",
+  "bonus_amt",
+  "rtop",
+  "rtop_amt",
+  "total_passr",
+  "total_amount",
+  "field_23",
+  "field_24",
+  "field_25",
+  "field_26"
+ ],
+ "fields": [
+  {
+   "fieldname": "legacy_id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Legacy ID",
+   "read_only": 1
+  },
+  {
+   "fieldname": "uts_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "division",
+   "fieldtype": "Small Text",
+   "label": "Division"
+  },
+  {
+   "fieldname": "financial_year",
+   "fieldtype": "Small Text",
+   "label": "Financial_Year"
+  },
+  {
+   "fieldname": "locn",
+   "fieldtype": "Link",
+   "label": "LOCN",
+   "options": "Railway Station",
+   "search_index": 1
+  },
+  {
+   "fieldname": "tkt",
+   "fieldtype": "Small Text",
+   "label": "TKT"
+  },
+  {
+   "fieldname": "jtkt",
+   "fieldtype": "Int",
+   "label": "JTKT"
+  },
+  {
+   "fieldname": "jpsgn",
+   "fieldtype": "Int",
+   "label": "JPSGN"
+  },
+  {
+   "fieldname": "jamt",
+   "fieldtype": "Currency",
+   "label": "JAMT"
+  },
+  {
+   "fieldname": "stkt",
+   "fieldtype": "Float",
+   "label": "STKT"
+  },
+  {
+   "fieldname": "spsgn",
+   "fieldtype": "Float",
+   "label": "SPSGN"
+  },
+  {
+   "fieldname": "samt",
+   "fieldtype": "Currency",
+   "label": "SAMT"
+  },
+  {
+   "fieldname": "plat",
+   "fieldtype": "Float",
+   "label": "PLAT"
+  },
+  {
+   "fieldname": "plat_psgn",
+   "fieldtype": "Float",
+   "label": "PLAT_PSGN"
+  },
+  {
+   "fieldname": "plat_amt",
+   "fieldtype": "Currency",
+   "label": "PLAT_AMT"
+  },
+  {
+   "fieldname": "non_printed",
+   "fieldtype": "Float",
+   "label": "NON_PRINTED"
+  },
+  {
+   "fieldname": "clerkage",
+   "fieldtype": "Currency",
+   "label": "CLERKAGE"
+  },
+  {
+   "fieldname": "bonus_amt",
+   "fieldtype": "Currency",
+   "label": "BONUS_AMT"
+  },
+  {
+   "fieldname": "rtop",
+   "fieldtype": "Float",
+   "label": "RTOP"
+  },
+  {
+   "fieldname": "rtop_amt",
+   "fieldtype": "Currency",
+   "label": "RTOP AMT"
+  },
+  {
+   "fieldname": "total_passr",
+   "fieldtype": "Float",
+   "label": "Total_Passr"
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "label": "total_amount"
+  },
+  {
+   "fieldname": "field_23",
+   "fieldtype": "Small Text",
+   "label": "Field23"
+  },
+  {
+   "fieldname": "field_24",
+   "fieldtype": "Small Text",
+   "label": "Field24"
+  },
+  {
+   "fieldname": "field_25",
+   "fieldtype": "Small Text",
+   "label": "Field25"
+  },
+  {
+   "fieldname": "field_26",
+   "fieldtype": "Small Text",
+   "label": "Field26"
+  },
+  {
+   "fieldname": "canceled",
+   "fieldtype": "Float",
+   "label": "CANCELED"
+  }
+ ],
+ "links": [],
+ "modified": "2026-09-13 22:04:24.706400",
+ "modified_by": "Administrator",
+ "module": "Passenger Earnings",
+ "name": "UTS On Mobile",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "uts_date",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,104 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2026-09-04 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "station",
+  "demand_no",
+  "regn_date",
+  "commodity",
+  "destn",
+  "reqd_date",
+  "req_type",
+  "party",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "station",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Station",
+   "options": "Railway Station",
+   "search_index": 1
+  },
+  {
+   "fieldname": "demand_no",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "DemandNo"
+  },
+  {
+   "fieldname": "regn_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "RegnDate"
+  },
+  {
+   "fieldname": "commodity",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Commodity",
+   "options": "Commodity"
+  },
+  {
+   "fieldname": "destn",
+   "fieldtype": "Link",
+   "label": "Destn",
+   "options": "Railway Station"
+  },
+  {
+   "fieldname": "reqd_date",
+   "fieldtype": "Date",
+   "label": "ReqdDate"
+  },
+  {
+   "fieldname": "req_type",
+   "fieldtype": "Data",
+   "label": "ReqType",
+   "length": 10
+  },
+  {
+   "fieldname": "party",
+   "fieldtype": "Data",
+   "label": "Party",
+   "length": 50
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "label": "Remarks",
+   "length": 50
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-09-04 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Parcel And Goods",
+ "name": "Wagon Demand",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

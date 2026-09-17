@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "autoname": "hash",
+ "creation": "2026-09-04 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tr_date",
+  "dir",
+  "train",
+  "st_date",
+  "stn_f",
+  "stn_t",
+  "chs",
+  "staff",
+  "chs_man",
+  "add_chs",
+  "tot_chs",
+  "coaches",
+  "tot_unman"
+ ],
+ "fields": [
+  {
+   "fieldname": "tr_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "TrDate"
+  },
+  {
+   "fieldname": "dir",
+   "fieldtype": "Small Text",
+   "label": "Dir"
+  },
+  {
+   "fieldname": "train",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Train",
+   "options": "Train",
+   "search_index": 1
+  },
+  {
+   "fieldname": "st_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "StDate",
+   "search_index": 1
+  },
+  {
+   "fieldname": "stn_f",
+   "fieldtype": "Link",
+   "label": "StnF",
+   "options": "Railway Station"
+  },
+  {
+   "fieldname": "stn_t",
+   "fieldtype": "Link",
+   "label": "StnT",
+   "options": "Railway Station"
+  },
+  {
+   "fieldname": "chs",
+   "fieldtype": "Float",
+   "label": "Chs"
+  },
+  {
+   "fieldname": "staff",
+   "fieldtype": "Float",
+   "label": "Staff"
+  },
+  {
+   "fieldname": "chs_man",
+   "fieldtype": "Float",
+   "label": "ChsMan"
+  },
+  {
+   "fieldname": "add_chs",
+   "fieldtype": "Float",
+   "label": "AddChs"
+  },
+  {
+   "fieldname": "tot_chs",
+   "fieldtype": "Float",
+   "label": "TotChs"
+  },
+  {
+   "fieldname": "coaches",
+   "fieldtype": "Small Text",
+   "label": "Coaches"
+  },
+  {
+   "fieldname": "tot_unman",
+   "fieldtype": "Float",
+   "label": "TotUnman"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-09-04 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Reservation And Occupancy",
+ "name": "Unmanned Coach Check",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "tr_date",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 0
+}

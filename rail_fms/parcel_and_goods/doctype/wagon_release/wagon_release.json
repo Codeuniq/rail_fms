@@ -1,0 +1,117 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "autoname": "hash",
+ "creation": "2026-09-04 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tr_date",
+  "station",
+  "priority",
+  "on_hand",
+  "recvd",
+  "total",
+  "placed",
+  "relsd",
+  "left_over",
+  "in_grid",
+  "remarks",
+  "group_no"
+ ],
+ "fields": [
+  {
+   "fieldname": "tr_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "TrDate"
+  },
+  {
+   "fieldname": "station",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Station",
+   "options": "Railway Station",
+   "search_index": 1
+  },
+  {
+   "fieldname": "priority",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Priority"
+  },
+  {
+   "fieldname": "on_hand",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "OnHand"
+  },
+  {
+   "fieldname": "recvd",
+   "fieldtype": "Float",
+   "label": "Recvd"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Float",
+   "label": "Total"
+  },
+  {
+   "fieldname": "placed",
+   "fieldtype": "Float",
+   "label": "Placed"
+  },
+  {
+   "fieldname": "relsd",
+   "fieldtype": "Float",
+   "label": "Relsd"
+  },
+  {
+   "fieldname": "left_over",
+   "fieldtype": "Float",
+   "label": "LeftOver"
+  },
+  {
+   "fieldname": "in_grid",
+   "fieldtype": "Float",
+   "label": "InGrid"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "group_no",
+   "fieldtype": "Float",
+   "label": "Group"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-09-04 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Parcel And Goods",
+ "name": "Wagon Release",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "tr_date",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 0
+}

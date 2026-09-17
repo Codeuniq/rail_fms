@@ -1,0 +1,226 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "autoname": "hash",
+ "creation": "2026-09-04 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tr_date",
+  "station",
+  "tickets",
+  "passengers",
+  "amount_1",
+  "mst",
+  "qst",
+  "hst",
+  "yst",
+  "amount_2",
+  "ni",
+  "spl_canc",
+  "refund_tkt",
+  "refund",
+  "pf",
+  "pf_avm",
+  "cc",
+  "sundries",
+  "pkgs",
+  "weight",
+  "amount_3",
+  "ctrs_1",
+  "ctrs_2",
+  "ctrs_3",
+  "priority",
+  "display_order",
+  "disp_12_stn",
+  "div_chg_earn",
+  "error_message",
+  "rolls"
+ ],
+ "fields": [
+  {
+   "fieldname": "tr_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "TrDate"
+  },
+  {
+   "fieldname": "station",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Station",
+   "options": "Railway Station",
+   "search_index": 1
+  },
+  {
+   "fieldname": "tickets",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Tickets"
+  },
+  {
+   "fieldname": "passengers",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Passengers"
+  },
+  {
+   "fieldname": "amount_1",
+   "fieldtype": "Currency",
+   "label": "Amount1"
+  },
+  {
+   "fieldname": "mst",
+   "fieldtype": "Currency",
+   "label": "MST"
+  },
+  {
+   "fieldname": "qst",
+   "fieldtype": "Currency",
+   "label": "QST"
+  },
+  {
+   "fieldname": "hst",
+   "fieldtype": "Currency",
+   "label": "HST"
+  },
+  {
+   "fieldname": "yst",
+   "fieldtype": "Currency",
+   "label": "YST"
+  },
+  {
+   "fieldname": "amount_2",
+   "fieldtype": "Currency",
+   "label": "Amount2"
+  },
+  {
+   "fieldname": "ni",
+   "fieldtype": "Int",
+   "label": "NI"
+  },
+  {
+   "fieldname": "spl_canc",
+   "fieldtype": "Int",
+   "label": "SplCanc"
+  },
+  {
+   "fieldname": "refund_tkt",
+   "fieldtype": "Int",
+   "label": "RefundTkt"
+  },
+  {
+   "fieldname": "refund",
+   "fieldtype": "Currency",
+   "label": "Refund"
+  },
+  {
+   "fieldname": "pf",
+   "fieldtype": "Currency",
+   "label": "PF"
+  },
+  {
+   "fieldname": "pf_avm",
+   "fieldtype": "Currency",
+   "label": "PF_AVM"
+  },
+  {
+   "fieldname": "cc",
+   "fieldtype": "Currency",
+   "label": "CC"
+  },
+  {
+   "fieldname": "sundries",
+   "fieldtype": "Currency",
+   "label": "Sundries"
+  },
+  {
+   "fieldname": "pkgs",
+   "fieldtype": "Float",
+   "label": "Pkgs"
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Float",
+   "label": "Weight"
+  },
+  {
+   "fieldname": "amount_3",
+   "fieldtype": "Currency",
+   "label": "Amount3"
+  },
+  {
+   "fieldname": "ctrs_1",
+   "fieldtype": "Float",
+   "label": "Ctrs1"
+  },
+  {
+   "fieldname": "ctrs_2",
+   "fieldtype": "Float",
+   "label": "Ctrs2"
+  },
+  {
+   "fieldname": "ctrs_3",
+   "fieldtype": "Float",
+   "label": "Ctrs3"
+  },
+  {
+   "fieldname": "priority",
+   "fieldtype": "Float",
+   "label": "Priority"
+  },
+  {
+   "fieldname": "display_order",
+   "fieldtype": "Int",
+   "label": "DisplayOrder"
+  },
+  {
+   "fieldname": "disp_12_stn",
+   "fieldtype": "Int",
+   "label": "Disp12Stn"
+  },
+  {
+   "fieldname": "div_chg_earn",
+   "fieldtype": "Check",
+   "label": "DivChgEarn"
+  },
+  {
+   "fieldname": "error_message",
+   "fieldtype": "Data",
+   "label": "Error",
+   "length": 50
+  },
+  {
+   "fieldname": "rolls",
+   "fieldtype": "Int",
+   "label": "Rolls"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-09-04 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Passenger Earnings",
+ "name": "Station Earning 2011",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "tr_date",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 0
+}

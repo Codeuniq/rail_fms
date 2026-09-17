@@ -1,0 +1,93 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2026-09-04 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "rec_id",
+  "train",
+  "from_stn",
+  "to_stn",
+  "dep_time",
+  "remarks",
+  "closed"
+ ],
+ "fields": [
+  {
+   "fieldname": "rec_id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Rec_ID",
+   "search_index": 1
+  },
+  {
+   "fieldname": "train",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Train",
+   "options": "Train",
+   "search_index": 1
+  },
+  {
+   "fieldname": "from_stn",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "FromStn",
+   "options": "Railway Station"
+  },
+  {
+   "fieldname": "to_stn",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "ToStn",
+   "options": "Railway Station"
+  },
+  {
+   "fieldname": "dep_time",
+   "fieldtype": "Time",
+   "label": "DepTime"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "label": "Remarks",
+   "length": 50
+  },
+  {
+   "fieldname": "closed",
+   "fieldtype": "Check",
+   "label": "Closed"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-09-04 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Rail Masters",
+ "name": "Special Train",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "train,from_stn,to_stn",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "train",
+ "track_changes": 1
+}

@@ -1,0 +1,165 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "autoname": "hash",
+ "creation": "2026-09-04 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tr_date",
+  "station",
+  "forms",
+  "tickets",
+  "passengers",
+  "gross_earn",
+  "ref_pass",
+  "refund",
+  "net_earn",
+  "cc",
+  "ctrs",
+  "ctrs_mng",
+  "ctrs_evg",
+  "rolls",
+  "ni",
+  "sp_can",
+  "priority",
+  "display_order",
+  "disp_12_stn",
+  "div_chg_earn"
+ ],
+ "fields": [
+  {
+   "fieldname": "tr_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "TrDate"
+  },
+  {
+   "fieldname": "station",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Station",
+   "options": "Railway Station",
+   "search_index": 1
+  },
+  {
+   "fieldname": "forms",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Forms"
+  },
+  {
+   "fieldname": "tickets",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Tickets"
+  },
+  {
+   "fieldname": "passengers",
+   "fieldtype": "Float",
+   "label": "Passengers"
+  },
+  {
+   "fieldname": "gross_earn",
+   "fieldtype": "Currency",
+   "label": "GrossEarn"
+  },
+  {
+   "fieldname": "ref_pass",
+   "fieldtype": "Float",
+   "label": "Ref_Pass"
+  },
+  {
+   "fieldname": "refund",
+   "fieldtype": "Currency",
+   "label": "Refund"
+  },
+  {
+   "fieldname": "net_earn",
+   "fieldtype": "Currency",
+   "label": "NetEarn"
+  },
+  {
+   "fieldname": "cc",
+   "fieldtype": "Currency",
+   "label": "CC"
+  },
+  {
+   "fieldname": "ctrs",
+   "fieldtype": "Int",
+   "label": "Ctrs"
+  },
+  {
+   "fieldname": "ctrs_mng",
+   "fieldtype": "Float",
+   "label": "CtrsMng"
+  },
+  {
+   "fieldname": "ctrs_evg",
+   "fieldtype": "Float",
+   "label": "CtrsEvg"
+  },
+  {
+   "fieldname": "rolls",
+   "fieldtype": "Int",
+   "label": "Rolls"
+  },
+  {
+   "fieldname": "ni",
+   "fieldtype": "Int",
+   "label": "NI"
+  },
+  {
+   "fieldname": "sp_can",
+   "fieldtype": "Int",
+   "label": "SpCan"
+  },
+  {
+   "fieldname": "priority",
+   "fieldtype": "Float",
+   "label": "Priority"
+  },
+  {
+   "fieldname": "display_order",
+   "fieldtype": "Int",
+   "label": "DisplayOrder"
+  },
+  {
+   "fieldname": "disp_12_stn",
+   "fieldtype": "Int",
+   "label": "Disp12Stn"
+  },
+  {
+   "fieldname": "div_chg_earn",
+   "fieldtype": "Check",
+   "label": "DivChgEarn"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-09-04 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Passenger Earnings",
+ "name": "PRS Earning 2013",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "tr_date",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 0
+}

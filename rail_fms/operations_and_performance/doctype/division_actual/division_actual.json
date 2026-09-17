@@ -1,0 +1,338 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2026-09-04 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "last_date",
+  "pas_earn_mon",
+  "gds_earn_mon",
+  "pls_earn_mon",
+  "sun_earn_mon",
+  "pas_earn_cum",
+  "gds_earn_cum",
+  "pls_earn_cum",
+  "sun_earn_cum",
+  "u_f_m",
+  "u_o_m",
+  "u_tot_m",
+  "u_f_c",
+  "u_o_c",
+  "u_tot_c",
+  "w_f_m",
+  "w_c_m",
+  "w_t_m",
+  "w_s_m",
+  "w_r_m",
+  "w_o_m",
+  "w_tot_m",
+  "w_f_c",
+  "w_c_c",
+  "w_t_c",
+  "w_s_c",
+  "w_r_c",
+  "w_o_c",
+  "w_tot_c",
+  "e_m",
+  "e_c",
+  "pass_m",
+  "pass_c",
+  "mst_m",
+  "qst_m",
+  "st_m",
+  "mst_c",
+  "qst_c",
+  "st_c",
+  "tc_m",
+  "tc_c",
+  "ir_t_m",
+  "ir_a_m",
+  "ir_t_c",
+  "ir_a_c",
+  "prs_p_m",
+  "prs_p_c",
+  "prs_a_m",
+  "prs_a_c"
+ ],
+ "fields": [
+  {
+   "fieldname": "last_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "LastDate",
+   "search_index": 1
+  },
+  {
+   "fieldname": "pas_earn_mon",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "PasEarnMon"
+  },
+  {
+   "fieldname": "gds_earn_mon",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "GdsEarnMon"
+  },
+  {
+   "fieldname": "pls_earn_mon",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "PlsEarnMon"
+  },
+  {
+   "fieldname": "sun_earn_mon",
+   "fieldtype": "Currency",
+   "label": "SunEarnMon"
+  },
+  {
+   "fieldname": "pas_earn_cum",
+   "fieldtype": "Currency",
+   "label": "PasEarnCum"
+  },
+  {
+   "fieldname": "gds_earn_cum",
+   "fieldtype": "Currency",
+   "label": "GdsEarnCum"
+  },
+  {
+   "fieldname": "pls_earn_cum",
+   "fieldtype": "Currency",
+   "label": "PlsEarnCum"
+  },
+  {
+   "fieldname": "sun_earn_cum",
+   "fieldtype": "Currency",
+   "label": "SunEarnCum"
+  },
+  {
+   "fieldname": "u_f_m",
+   "fieldtype": "Float",
+   "label": "U_F_M"
+  },
+  {
+   "fieldname": "u_o_m",
+   "fieldtype": "Float",
+   "label": "U_O_M"
+  },
+  {
+   "fieldname": "u_tot_m",
+   "fieldtype": "Float",
+   "label": "U_Tot_M"
+  },
+  {
+   "fieldname": "u_f_c",
+   "fieldtype": "Float",
+   "label": "U_F_C"
+  },
+  {
+   "fieldname": "u_o_c",
+   "fieldtype": "Float",
+   "label": "U_O_C"
+  },
+  {
+   "fieldname": "u_tot_c",
+   "fieldtype": "Float",
+   "label": "U_Tot_C"
+  },
+  {
+   "fieldname": "w_f_m",
+   "fieldtype": "Int",
+   "label": "W_F_M"
+  },
+  {
+   "fieldname": "w_c_m",
+   "fieldtype": "Int",
+   "label": "W_C_M"
+  },
+  {
+   "fieldname": "w_t_m",
+   "fieldtype": "Int",
+   "label": "W_T_M"
+  },
+  {
+   "fieldname": "w_s_m",
+   "fieldtype": "Int",
+   "label": "W_S_M"
+  },
+  {
+   "fieldname": "w_r_m",
+   "fieldtype": "Int",
+   "label": "W_R_M"
+  },
+  {
+   "fieldname": "w_o_m",
+   "fieldtype": "Int",
+   "label": "W_O_M"
+  },
+  {
+   "fieldname": "w_tot_m",
+   "fieldtype": "Int",
+   "label": "W_Tot_M"
+  },
+  {
+   "fieldname": "w_f_c",
+   "fieldtype": "Int",
+   "label": "W_F_C"
+  },
+  {
+   "fieldname": "w_c_c",
+   "fieldtype": "Int",
+   "label": "W_C_C"
+  },
+  {
+   "fieldname": "w_t_c",
+   "fieldtype": "Int",
+   "label": "W_T_C"
+  },
+  {
+   "fieldname": "w_s_c",
+   "fieldtype": "Int",
+   "label": "W_S_C"
+  },
+  {
+   "fieldname": "w_r_c",
+   "fieldtype": "Int",
+   "label": "W_R_C"
+  },
+  {
+   "fieldname": "w_o_c",
+   "fieldtype": "Int",
+   "label": "W_O_C"
+  },
+  {
+   "fieldname": "w_tot_c",
+   "fieldtype": "Int",
+   "label": "W_Tot_C"
+  },
+  {
+   "fieldname": "e_m",
+   "fieldtype": "Float",
+   "label": "E_M"
+  },
+  {
+   "fieldname": "e_c",
+   "fieldtype": "Float",
+   "label": "E_C"
+  },
+  {
+   "fieldname": "pass_m",
+   "fieldtype": "Float",
+   "label": "Pass_M"
+  },
+  {
+   "fieldname": "pass_c",
+   "fieldtype": "Float",
+   "label": "Pass_C"
+  },
+  {
+   "fieldname": "mst_m",
+   "fieldtype": "Float",
+   "label": "MST_M"
+  },
+  {
+   "fieldname": "qst_m",
+   "fieldtype": "Float",
+   "label": "QST_M"
+  },
+  {
+   "fieldname": "st_m",
+   "fieldtype": "Float",
+   "label": "ST_M"
+  },
+  {
+   "fieldname": "mst_c",
+   "fieldtype": "Float",
+   "label": "MST_C"
+  },
+  {
+   "fieldname": "qst_c",
+   "fieldtype": "Float",
+   "label": "QST_C"
+  },
+  {
+   "fieldname": "st_c",
+   "fieldtype": "Float",
+   "label": "ST_C"
+  },
+  {
+   "fieldname": "tc_m",
+   "fieldtype": "Float",
+   "label": "TC_M"
+  },
+  {
+   "fieldname": "tc_c",
+   "fieldtype": "Float",
+   "label": "TC_C"
+  },
+  {
+   "fieldname": "ir_t_m",
+   "fieldtype": "Int",
+   "label": "IR_T_M"
+  },
+  {
+   "fieldname": "ir_a_m",
+   "fieldtype": "Int",
+   "label": "IR_A_M"
+  },
+  {
+   "fieldname": "ir_t_c",
+   "fieldtype": "Int",
+   "label": "IR_T_C"
+  },
+  {
+   "fieldname": "ir_a_c",
+   "fieldtype": "Float",
+   "label": "IR_A_C"
+  },
+  {
+   "fieldname": "prs_p_m",
+   "fieldtype": "Float",
+   "label": "PRS_P_M"
+  },
+  {
+   "fieldname": "prs_p_c",
+   "fieldtype": "Float",
+   "label": "PRS_P_C"
+  },
+  {
+   "fieldname": "prs_a_m",
+   "fieldtype": "Float",
+   "label": "PRS_A_M"
+  },
+  {
+   "fieldname": "prs_a_c",
+   "fieldtype": "Float",
+   "label": "PRS_A_C"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-09-04 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Operations And Performance",
+ "name": "Division Actual",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "last_date",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

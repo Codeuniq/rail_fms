@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2026-09-04 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "station",
+  "expr_1001",
+  "expr_1002",
+  "expr_1003",
+  "expr_1004"
+ ],
+ "fields": [
+  {
+   "fieldname": "station",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Station",
+   "options": "Railway Station",
+   "search_index": 1
+  },
+  {
+   "fieldname": "expr_1001",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Expr1001"
+  },
+  {
+   "fieldname": "expr_1002",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Expr1002"
+  },
+  {
+   "fieldname": "expr_1003",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Expr1003"
+  },
+  {
+   "fieldname": "expr_1004",
+   "fieldtype": "Float",
+   "label": "Expr1004"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-09-04 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Passenger Earnings",
+ "name": "Station Summary Previous",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

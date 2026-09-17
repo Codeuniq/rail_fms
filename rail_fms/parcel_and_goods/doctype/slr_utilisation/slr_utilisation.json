@@ -1,0 +1,124 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "autoname": "hash",
+ "creation": "2026-09-04 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tr_date",
+  "train",
+  "wt_p",
+  "amt_p",
+  "wt_l",
+  "amt_l",
+  "wt_tp",
+  "wt_total",
+  "amt_total",
+  "day_count",
+  "cc",
+  "from_stn",
+  "priority"
+ ],
+ "fields": [
+  {
+   "fieldname": "tr_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "TrDate"
+  },
+  {
+   "fieldname": "train",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Train",
+   "options": "Train",
+   "search_index": 1
+  },
+  {
+   "fieldname": "wt_p",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "WtP"
+  },
+  {
+   "fieldname": "amt_p",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "AmtP"
+  },
+  {
+   "fieldname": "wt_l",
+   "fieldtype": "Float",
+   "label": "WtL"
+  },
+  {
+   "fieldname": "amt_l",
+   "fieldtype": "Currency",
+   "label": "AmtL"
+  },
+  {
+   "fieldname": "wt_tp",
+   "fieldtype": "Float",
+   "label": "WtTP"
+  },
+  {
+   "fieldname": "wt_total",
+   "fieldtype": "Float",
+   "label": "WtTotal"
+  },
+  {
+   "fieldname": "amt_total",
+   "fieldtype": "Currency",
+   "label": "AmtTotal"
+  },
+  {
+   "fieldname": "day_count",
+   "fieldtype": "Float",
+   "label": "DayCount"
+  },
+  {
+   "fieldname": "cc",
+   "fieldtype": "Currency",
+   "label": "CC"
+  },
+  {
+   "fieldname": "from_stn",
+   "fieldtype": "Link",
+   "label": "FromStn",
+   "options": "Railway Station"
+  },
+  {
+   "fieldname": "priority",
+   "fieldtype": "Int",
+   "label": "Priority"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-09-04 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Parcel And Goods",
+ "name": "SLR Utilisation",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "tr_date",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 0
+}
